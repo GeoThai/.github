@@ -24,7 +24,7 @@ GeoThai is licensed under the MIT License. See [LICENSE](LICENSE) for more detai
 
 ## 🙋‍♂️ Contact
 
-For any questions or support, please contact us at [pyyupsk@proton.me](mailto:pyyupsk@proton.me).
+For any questions or support, please contact us at [geothai@fasu.dev](mailto:geothai@fasu.dev).
 
 ---
 

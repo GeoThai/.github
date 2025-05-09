@@ -20,11 +20,11 @@ For more detailed documentation, please refer to [our documentation site](https:
 
 ## 📝 License
 
-GeoThai is licensed under the MIT License. See [LICENSE](./README.md) for more details.
+GeoThai is licensed under the MIT License. See [LICENSE](../LICENSE) for more details.
 
 ## 🙋‍♂️ Contact
 
-For any questions or support, please contact us at [pyyupsk@proton.me](mailto:pyyupsk@proton.me).
+For any questions or support, please contact us at [geothai@fasu.dev](mailto:geothai@fasu.dev).
 
 ---
 

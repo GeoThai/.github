@@ -13,8 +13,8 @@ The public profile of the [GeoThai](https://github.com/GeoThai) organization on 
 
 The logo files come from the GeoThai brand kit. If the logo changes, copy these two files from `logo/horizontal/` in the kit to `profile/assets/`:
 
-- `geothai-horizontal-color.svg`
-- `geothai-horizontal-color-on-dark.svg`
+- `geothai-horizontal-black.svg`
+- `geothai-horizontal-white.svg`
 
 ## License
 

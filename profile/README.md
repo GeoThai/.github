@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GeoThai/.github/main/profile/assets/geothai-horizontal-color-on-dark.svg">
-  <img alt="GeoThai" src="https://raw.githubusercontent.com/GeoThai/.github/main/profile/assets/geothai-horizontal-color.svg" height="64">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GeoThai/.github/main/profile/assets/geothai-horizontal-white.svg">
+  <img alt="GeoThai" src="https://raw.githubusercontent.com/GeoThai/.github/main/profile/assets/geothai-horizontal-black.svg" height="64">
 </picture>
 
 Open data for every province, district, subdistrict and postal code of Thailand, checked against official sources.

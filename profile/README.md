@@ -1,31 +1,29 @@
-# GeoThai
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GeoThai/.github/main/profile/assets/geothai-horizontal-color-on-dark.svg">
+  <img alt="GeoThai" src="https://raw.githubusercontent.com/GeoThai/.github/main/profile/assets/geothai-horizontal-color.svg" height="64">
+</picture>
 
-Welcome to **GeoThai**, your comprehensive source for geographic data about Thailand. Our organization provides detailed and accurate geographic information, including data on provinces, districts, and subdistricts, sourced from the Thailand Geography JSON dataset.
+Open data for every province, district, subdistrict and postal code of Thailand, checked against official sources.
 
-![GeoThai Logo](https://raw.githubusercontent.com/GeoThai/assets/main/images/logos/GeoThai-logo-light.svg)
+## Features
 
-## 📚 About
+- Official codes from the Department of Provincial Administration (DOPA), with Thai and English names
+- Postal codes per subdistrict. A subdistrict that spans post office zones gets more than one code
+- Seven sources check every value. Each disagreement gets a decision and its evidence
+- Abolished areas keep their code and the date they ended
+- One JSON line per area, so the data works in any language
 
-GeoThai provides:
+## Status
 
-- **Provinces**: Detailed information on all provinces in Thailand.
-- **Districts**: Data on districts within each province.
-- **Subdistricts**: Comprehensive details on subdistricts.
+| Part           | State                                    |
+| -------------- | ---------------------------------------- |
+| Data pipeline  | Done, refreshes every week               |
+| Public data    | Next                                     |
+| npm and Python | Later. The old packages will be replaced |
+| Website        | Later                                    |
 
-This data is crucial for applications involving geographic information systems (GIS), mapping, and location-based services.
+The old data versions (v1 to v4) will be removed when the new public data is out.
 
-## 📑 Documentation
+## Contact
 
-For more detailed documentation, please refer to [our documentation site](https://geothai.vercel.app/docs)
-
-## 📝 License
-
-GeoThai is licensed under the MIT License. See [LICENSE](../LICENSE) for more details.
-
-## 🙋‍♂️ Contact
-
-For any questions or support, please contact us at [geothai@fasu.dev](mailto:geothai@fasu.dev).
-
----
-
-Thank you for your interest in GeoThai! We hope our data helps you in your projects and applications.
+[geothai@fasu.dev](mailto:geothai@fasu.dev)

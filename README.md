@@ -1,31 +1,21 @@
-# GeoThai
+# GeoThai .github
 
-Welcome to **GeoThai**, your comprehensive source for geographic data about Thailand. Our organization provides detailed and accurate geographic information, including data on provinces, districts, and subdistricts, sourced from the Thailand Geography JSON dataset.
+The public profile of the [GeoThai](https://github.com/GeoThai) organization on GitHub.
 
-![GeoThai Logo](https://raw.githubusercontent.com/GeoThai/assets/main/images/logos/GeoThai-logo-light.svg)
+## Files
 
-## 📚 About
+| File                                       | Content                                    |
+| ------------------------------------------ | ------------------------------------------ |
+| [`profile/README.md`](./profile/README.md) | The page on github.com/GeoThai             |
+| [`profile/assets/`](./profile/assets)      | The GeoThai logo for light and dark themes |
 
-GeoThai provides:
+## Update the Logo
 
-- **Provinces**: Detailed information on all provinces in Thailand.
-- **Districts**: Data on districts within each province.
-- **Subdistricts**: Comprehensive details on subdistricts.
+The logo files come from the GeoThai brand kit. If the logo changes, copy these two files from `logo/horizontal/` in the kit to `profile/assets/`:
 
-This data is crucial for applications involving geographic information systems (GIS), mapping, and location-based services.
+- `geothai-horizontal-color.svg`
+- `geothai-horizontal-color-on-dark.svg`
 
-## 📑 Documentation
+## License
 
-For more detailed documentation, please refer to [our documentation site](https://geothai.vercel.app/docs)
-
-## 📝 License
-
-GeoThai is licensed under the MIT License. See [LICENSE](LICENSE) for more details.
-
-## 🙋‍♂️ Contact
-
-For any questions or support, please contact us at [geothai@fasu.dev](mailto:geothai@fasu.dev).
-
----
-
-Thank you for your interest in GeoThai! We hope our data helps you in your projects and applications.
+The text is under the [MIT License](./LICENSE). The GeoThai name and logo are not covered by it: all rights reserved © 2026 [Pongsakorn Thipayanate](https://github.com/pyyupsk).

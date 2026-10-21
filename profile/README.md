@@ -5,6 +5,8 @@
 
 Open data for every province, district, subdistrict and postal code of Thailand, checked against official sources.
 
+Search it at [geothai.fasu.dev](https://geothai.fasu.dev).
+
 ## Features
 
 - Official codes from the Department of Provincial Administration (DOPA), with Thai and English names
@@ -15,12 +17,12 @@ Open data for every province, district, subdistrict and postal code of Thailand,
 
 ## Status
 
-| Part           | State                                                                             |
-| -------------- | --------------------------------------------------------------------------------- |
-| Data pipeline  | Done, refreshes every week                                                        |
-| Public data    | Out: [GeoThai/data](https://github.com/GeoThai/data), first release `v2026.10.20` |
-| npm and Python | Next. The old packages will be replaced                                           |
-| Website        | Later                                                                             |
+| Part           | State                                                                                                       |
+| -------------- | ----------------------------------------------------------------------------------------------------------- |
+| Data pipeline  | Done, refreshes every week                                                                                  |
+| Public data    | Out: [GeoThai/data](https://github.com/GeoThai/data), first release `v2026.10.20`                           |
+| Website        | Live at [geothai.fasu.dev](https://geothai.fasu.dev): [GeoThai/website](https://github.com/GeoThai/website) |
+| npm and Python | Next. The old packages will be replaced                                                                     |
 
 The old data, v1 to v4, stays on the [`archive`](https://github.com/GeoThai/data/tree/archive) branch of GeoThai/data and its `v1` to `v4` tags.
 

@@ -17,12 +17,13 @@ Search it at [geothai.fasu.dev](https://geothai.fasu.dev).
 
 ## Status
 
-| Part           | State                                                                                                       |
-| -------------- | ----------------------------------------------------------------------------------------------------------- |
-| Data pipeline  | Done, refreshes every week                                                                                  |
-| Public data    | Out: [GeoThai/data](https://github.com/GeoThai/data), first release `v2026.10.20`                           |
-| Website        | Live at [geothai.fasu.dev](https://geothai.fasu.dev): [GeoThai/website](https://github.com/GeoThai/website) |
-| npm and Python | Next. The old packages will be replaced                                                                     |
+| Part           | State                                                                                                                          |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| Data pipeline  | Done, refreshes every week                                                                                                     |
+| Public data    | Out: [GeoThai/data](https://github.com/GeoThai/data), first release `v2026.10.20`                                              |
+| Website        | Live at [geothai.fasu.dev](https://geothai.fasu.dev): [GeoThai/website](https://github.com/GeoThai/website)                    |
+| npm package    | Out: [`geothai`](https://www.npmjs.com/package/geothai) 4.0.0: [GeoThai/npm-packages](https://github.com/GeoThai/npm-packages) |
+| Python package | Next. The old package will be replaced                                                                                         |
 
 The old data, v1 to v4, stays on the [`archive`](https://github.com/GeoThai/data/tree/archive) branch of GeoThai/data and its `v1` to `v4` tags.
 

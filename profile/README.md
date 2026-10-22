@@ -14,6 +14,7 @@ Search it at [geothai.fasu.dev](https://geothai.fasu.dev).
 - Seven sources check every value. Each disagreement gets a decision and its evidence
 - Abolished areas keep their code, the date they ended, and the codes that took their place
 - One JSON line per area, so the data works in any language
+- A private pipeline builds and checks the data. The steps and the evidence are in [GeoThai/data](https://github.com/GeoThai/data#how-it-is-built)
 
 ## Status
 

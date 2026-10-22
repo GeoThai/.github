@@ -1,3 +1,10 @@
 month,package,registry,last_month_downloads
 2026-10,geothai,npm,2876
 2026-10,geothai,pypi,48
+month,package,registry,last_month_downloads
+2026-10,geothai,npm,2876
+2026-10,@geothai/maps,npm,
+2026-10,@geothai/maps-react,npm,
+2026-10,@geothai/maps-vue,npm,
+2026-10,@geothai/maps-svelte,npm,
+2026-10,geothai,pypi,48

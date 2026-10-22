@@ -37,6 +37,7 @@ jobs:
             echo "$month,geothai,pypi,$n"
           } >> stats.csv
           git add stats.csv
+          git diff --cached --quiet && echo "No change since last month." && exit 0
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git commit -m "chore: downloads for $month"

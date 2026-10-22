@@ -24,8 +24,11 @@ jobs:
           persist-credentials: true
       - run: |
           month=$(date -u +%Y-%m)
+          [ -f stats.csv ] || echo 'month,package,registry,last_month_downloads' > stats.csv
+          # One run per month: a second run in the same month replaces that month's lines.
+          grep -v "^$month," stats.csv > stats.tmp || true
+          mv stats.tmp stats.csv
           {
-            echo 'month,package,registry,last_month_downloads'
             for p in geothai @geothai/maps @geothai/maps-react @geothai/maps-vue @geothai/maps-svelte; do
               n=$(curl -sf "https://api.npmjs.org/downloads/point/last-month/$p" | jq -r '.downloads // ""') || n=''
               echo "$month,$p,npm,$n"

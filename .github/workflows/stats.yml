@@ -1,0 +1,40 @@
+name: Stats
+
+# Keeps our own record of npm and PyPI downloads, because both registries
+# change their retention. Appends one line per package per month to stats.csv.
+on:
+  schedule:
+    - cron: '0 2 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stats
+  cancel-in-progress: false
+
+jobs:
+  stats:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: true
+      - run: |
+          month=$(date -u +%Y-%m)
+          {
+            echo 'month,package,registry,last_month_downloads'
+            for p in geothai @geothai/maps @geothai/maps-react @geothai/maps-vue @geothai/maps-svelte; do
+              n=$(curl -sf "https://api.npmjs.org/downloads/point/last-month/$p" | jq -r '.downloads // ""') || n=''
+              echo "$month,$p,npm,$n"
+            done
+            n=$(curl -sf "https://pypistats.org/api/packages/geothai/recent" | jq -r '.data.last_month // ""') || n=''
+            echo "$month,geothai,pypi,$n"
+          } >> stats.csv
+          git add stats.csv
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m "chore: downloads for $month"
+          git push

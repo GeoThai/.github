@@ -24,7 +24,7 @@ Search it at [geothai.fasu.dev](https://geothai.fasu.dev).
 | Data pipeline  | Done, refreshes every week                                                                                                                                 |
 | Public data    | Out: [GeoThai/data](https://github.com/GeoThai/data), a dated release each time the data changes                                                           |
 | Website        | Live at [geothai.fasu.dev](https://geothai.fasu.dev): [GeoThai/website](https://github.com/GeoThai/website)                                                |
-| npm package    | Out: [`geothai`](https://www.npmjs.com/package/geothai) 4.x: [GeoThai/npm-packages](https://github.com/GeoThai/npm-packages)                               |
+| npm package    | Out: [`@geothai/core`](https://www.npmjs.com/package/@geothai/core) 5.x: [GeoThai/npm-packages](https://github.com/GeoThai/npm-packages)                   |
 | Python package | Out: [`geothai`](https://pypi.org/project/geothai/) 3.x: [GeoThai/python-library](https://github.com/GeoThai/python-library)                               |
 | Boundaries     | Out: [GeoThai/boundaries](https://github.com/GeoThai/boundaries), shapes of every area on DOPA codes, with files for Datawrapper                           |
 | Maps           | Out: [`@geothai/maps`](https://www.npmjs.com/package/@geothai/maps) with React, Vue and Svelte components: [GeoThai/maps](https://github.com/GeoThai/maps) |

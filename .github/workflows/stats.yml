@@ -29,7 +29,7 @@ jobs:
           grep -v "^$month," stats.csv > stats.tmp || true
           mv stats.tmp stats.csv
           {
-            for p in geothai @geothai/maps @geothai/maps-react @geothai/maps-vue @geothai/maps-svelte; do
+            for p in @geothai/core @geothai/maps @geothai/maps-react @geothai/maps-vue @geothai/maps-svelte geothai; do
               n=$(curl -sf "https://api.npmjs.org/downloads/point/last-month/$p" | jq -r '.downloads // ""') || n=''
               echo "$month,$p,npm,$n"
             done
